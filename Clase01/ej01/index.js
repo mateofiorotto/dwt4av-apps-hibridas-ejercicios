@@ -19,7 +19,7 @@
 
 const Alumno = require('./Alumno.js');
 
-const alum1 = new Alumno('Mateo', "Fiorotto", 19, 'Desarrollo web', ['Aplicaciones Hibridas', 'Portales y comercio electronico', 'Etica'])<
+const alum1 = new Alumno('Mateo', "Fiorotto", 19, 'Desarrollo web', ['Aplicaciones Hibridas', 'Portales y comercio electronico', 'Etica'])
 
 console.log("CARRERA: " + alum1.mostrarCarrera() + " - Metodo: mostrarCarrera()"); // podria usar alum1.getCarrera().
 console.log("");

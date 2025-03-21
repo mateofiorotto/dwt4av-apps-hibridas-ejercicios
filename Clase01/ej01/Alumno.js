@@ -68,7 +68,6 @@ class Alumno {
 
     modificarEdad(edad) {
         this.edad = edad;
-        return this.edad;
     }
 
     agregarMateria(materia){
