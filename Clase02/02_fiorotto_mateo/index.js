@@ -27,12 +27,13 @@
 const ProductManager = require('./ProductManager.js');
 
 const products = new ProductManager([]);
+// { title: 'TV 32', description: 'TV LG 32', image: 'foto.jpg', price: 54000 }
+products.addProduct({ id: 1, title: 'Teclado', description: 'Teclado Mecánico', price: 25000, stock: 10});
+products.addProduct({ id: 2, title: 'Mouse', description: 'Mouse RGB', price: 30000, stock: 20});
+products.addProduct({ id: 3, title: 'PC', description: 'PC Escritorio', price: 100000, stock: 5});
 
-products.addProduct({ id: 1, title: 'Teclado', description: 'Teclado Mecánico', price: 25000, stock: 25 });
-products.addProduct({ id: 2, title: 'Mouse', description: 'Mouse RGB', price: 30000, stock: 15 });
-products.addProduct({ id: 3, title: 'PC', description: 'PC Escritorio', price: 100000, stock: 5 });
-
-console.log("PRODUCTOS: ", products.getProducts());
+console.log("PRODUCTOS: ");
+console.log(products.getProducts());
 
 console.log("----------------")
 let id = 2;
