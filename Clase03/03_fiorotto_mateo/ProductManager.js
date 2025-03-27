@@ -25,6 +25,8 @@ class ProductManager {
 
     //leer prods de un json local
     readProducts() {
+        //fs.readFile() --> Sync soluciona el callback de manera sincrona pero solo en estos casos, luego al usar bds y eso es mejor usar promesas
+        //async, await
         this.products = JSON.parse(fs.readFileSync('clase03/products.json', 'utf-8'));
     }
 
