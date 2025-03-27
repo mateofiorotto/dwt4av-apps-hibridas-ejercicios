@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Teclado",
+        "description": "Teclado Mecánico",
+        "price": 25000,
+        "stock": 10
+    },
+    {
+        "id": 2,
+        "title": "Mouse",
+        "description": "Mouse RGB",
+        "price": 30000,
+        "stock": 20
+    },
+    {
+        "id": 3,
+        "title": "PC",
+        "description": "PC Escritorio",
+        "price": 100000,
+        "stock": 5
+    }
+]
