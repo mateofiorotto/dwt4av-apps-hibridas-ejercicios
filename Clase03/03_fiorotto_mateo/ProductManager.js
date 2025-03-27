@@ -19,13 +19,13 @@ class ProductManager {
 
     //guardar JSON
     saveProducts() {
-        fs.writeFileSync('./products.json', JSON.stringify(this.products));
+        fs.writeFileSync('clase03/products.json', JSON.stringify(this.products));
         console.log('Productos guardados en el archivo');
     }
 
     //leer prods de un json local
     readProducts() {
-        this.products = JSON.parse(fs.readFileSync('./products.json', 'utf-8'));
+        this.products = JSON.parse(fs.readFileSync('clase03/products.json', 'utf-8'));
     }
 
     getProducts() {
