@@ -1,0 +1,16 @@
+{
+  "name": "ejemplo_clase",
+  "version": "1.0.0",
+  "description": "API Rest con express",
+  "license": "ISC",
+  "author": "Mateo Fiorotto",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "express": "^5.1.0"
+  }
+}

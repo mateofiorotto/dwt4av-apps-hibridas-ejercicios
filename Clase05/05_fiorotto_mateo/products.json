@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "TV",
+    "price": 1500
+  },
+  {
+    "id": 2,
+    "name": "Celular",
+    "price": 1000
+  },
+  {
+    "id": 3,
+    "name": "PC",
+    "price": 2000
+  },
+  {
+    "name": "producto",
+    "price": 100,
+    "id": "b4404a13-d617-4c59-8771-aeb9e7026be4"
+  }
+]
