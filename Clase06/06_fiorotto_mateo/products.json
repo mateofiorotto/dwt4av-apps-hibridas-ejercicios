@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "PC",
+    "price": 2050
+  },
+  {
+    "id": 2,
+    "name": "Celular",
+    "price": 999
+  },
+  {
+    "id": 3,
+    "name": "Celular1",
+    "price": 999
+  },
+  {
+    "name": "producto",
+    "price": 100,
+    "id": "b4404a13-d617-4c59-8771-aeb9e7026be4"
+  },
+  {
+    "name": "Celular 2",
+    "price": 999,
+    "id": "f664f654-5fe8-4521-a662-211c8b13e9d6"
+  },
+  {
+    "name": "Celular2",
+    "price": 1000,
+    "id": "73702835-9d7c-481c-9f2e-9a3f259e81a2"
+  },
+  {
+    "name": "Celular2",
+    "price": 1000,
+    "id": "c501fc08-36d0-4948-ab81-18690ff6560b"
+  },
+  {
+    "name": "Celular2",
+    "price": 999,
+    "id": "5dd66d6d-e95e-464f-b4e9-4c6bdd796f6d"
+  }
+]
